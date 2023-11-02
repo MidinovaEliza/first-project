@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}ul,ol,li {list-style: none;}
+a, a:hover {text-decoration: none;}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 40px;
+
+
+}
+.header__links{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 25px;
+    color: black;
+    font-size: 18px;
+    margin-left: 30px;
+
+}
+.menu{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.header__links1{
+    color: black;
+    margin-left: 5px;
+}
+.phone{
+    width: 17px;
+    height: 17px;
+}
+.hero__block2{
+    background: url("../img/Rectangle 22.png")no-repeat center/cover;
+    height: 70vh;
+    width: 450px;
+    margin-left: 130px;
+    position: relative;
+}
+.hero__block{
+
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.hero__title{
+    margin-top: 50px;
+    font-size: 47px;
+    width: 500px;
+
+}
+.hero__menu{
+    color:
+            #808080;
+    margin-left: 10px;
+
+}
+.hero__subtitle{
+    margin-top: 20px;
+    color:
+            #808080;
+    width: 450px;
+    font-size: 15px;
+}
+.hero__div{
+    margin-top: 50px;
+    display: flex;
+}
+.hero__btn{
+    padding: 10px;
+    width: 200px;
+    background: #B00000;
+    color: white;
+
+}
+.btn{
+    background: white;
+    color: black;
+    margin-left: 20px;
+}
+.hero__img1{
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 280px;
+}
+.hero__img2{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 425px;
+}
+.hero__img3{
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 396px;
+}
+.hero2{
+    display: flex;
+    margin-top: 50px;
+}
+.hero2__title{
+    font-size: 37px;
+    margin-top: 10px;
+
+}
+.hero2__subtitle{
+    margin-top: 20px;
+    width: 500px;
+    font-size: 20px;
+}
+.hero2__block2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+.hero2__img{
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+}
+.hero3{
+    margin-top: 70px;
+    display: flex;
+    margin-left: 30px;
+}
+.hero3__img{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+}
+.hero4{
+    margin-top: 70px;
+}
+.hero4__title{
+    font-size: 35px;
+    margin-left: 400px;
+    width: 400px;
+
+}
+.title4{
+    margin-left: 470px;
+}
+.hero4__subtitle{
+    margin-left: 450px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.block{
+    position:relative;
+    width: 50px;
+    height: 30px;
+    background: #B00000;
+    border-radius: 15px;
+    margin-left:10px ;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    position:absolute ;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.block2{
+    position: relative;
+    background: #FFE87A;
+    width: 100px;
+    height: 15px;
+    margin-left: 30px;
+}
+.block__subtitle{
+    position: absolute;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.hero4__block{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+.hero4__content{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.content__title{
+
+}
+.content__title2{
+    margin-left: 430px;
+}
+.block4{
+    width: 650px;
+    height: 4px;
+    background: grey   ;
+    margin-left: 270px;
+    margin-top: 10px;
+}
+
+.line--1{
+    background: #B00000;
+    height: 4px;
+    width: 310px;
+    display: none;
+}
+.line--2{
+    background: #B00000;
+    height: 4px;
+    width: 310px;
+    margin-left: 340px;
+    margin-top: -4px;
+    display: none;
+}
+.block4__block{
+    width: 250px;
+    height: 600px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.starter{
+margin-left: 20px;
+    margin-top: 30px;
+}
+.block4__subtitle{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.block4__title{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.block4___subtitle{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 10px;
+}
+.block4__btn{
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.block4__subtitle{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.blocks{
+    display: none;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+#Basic:checked ~ .blocks--1 {
+    display: flex;
+}
+
+#Premium:checked ~ .blocks--2  {
+    display: flex;
+}
+
+.block4__block{
+    margin-left: 60px;
+}
+.hero5{
+    margin-top: 50px;
+}
+.hero6{
+    margin-top: 30px;
+    display: flex;
+}
+
+.fa-phone{
+    color: hotpink;
+    width: 40px;
+    height: 30px;
+}
+.hero7{
+    position: relative;
+    width: 1100px;
+    height: 400px;
+    background: #F7FAFE;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 60px;
+}
+.hero7__title{
+    padding-top: 100px;
+    margin-left: 300px;
+    font-size: 50px;
+
+}
+.btn2{
+    margin-left: 20px;
+    background: white;
+    color: black;
+}
+.title5{
+    margin-left: 350px;
+    font-size: 50px;
+}
+.btn{
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 20px;
+    background: #B00000;
+}
+.hero__img4{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: -670px;
+}
+.hero__img5{
+    position: absolute;
+    margin-top: -220px;
+    margin-left: -220px;
+}
+.radio{
+    opacity: 0;
+}
+.hero__img6{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 395px;
+}
+.footer{
+    background: #B00000;
+    height: 70vh;
+    display: flex;
+    margin-top: 70px;
+}
+.footer__img{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.footer__subtitle1{
+    color: white;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.footer__title{
+    color: white;
+
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.footer__subtitle{
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.footer__title2{
+    margin-left:50px ;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+
+
